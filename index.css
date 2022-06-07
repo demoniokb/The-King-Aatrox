@@ -1,0 +1,118 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.contenedor1 {
+
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.navbar  {
+
+list-style: none;
+display: inline-block;
+margin: 0 20px;
+position: relative;
+
+}
+
+.navbar  {
+    width: 88%;
+    margin: auto;
+  
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: white;
+  font-family: lol;
+  font-size: 15px;
+}
+
+a:hover {
+    
+color: #c8aa6e;
+
+}
+
+h1  {
+    font-family: lol;
+    font-weight: 700;
+    letter-spacing: .05em;
+    line-height: 100%;
+    text-transform: uppercase;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+h2 {
+    font-family: lol;
+    font-weight: 700;
+    letter-spacing: .05em;
+    line-height: 100%;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    color: #c8aa6e;
+}
+p{
+    font-family: lol;
+    color: #d0c8b7;
+    font-size: 18px;
+    text-align: center;
+    
+
+}
+.main {
+    background-color: #111315;
+    float: left;
+    width: 80%;
+    height: 300vh;
+    
+    
+    
+    
+    
+}
+.aside{
+background-color: #111315;
+float: left;
+width: 20%;
+height: 300vh;
+}
+
+@font-face {
+    font-family: lol;
+    src: url("lol.ttf");
+}
+
+footer {
+    background-color: black;
+    color: #c8aa6e;
+    text-align: center;
+    float: right;
+
+
+    width:  100%;
+    
+    
+    
+    
+}
+
+
+h1:hover{
+    color: red;
+}
+h2:hover{
+    color: red;
+}
+.iaatrox:hover{
+    background-color: #c8aa6e;
+   
+}
